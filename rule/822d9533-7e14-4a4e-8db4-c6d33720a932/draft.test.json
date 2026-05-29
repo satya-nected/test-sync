@@ -4,6 +4,37 @@
  "isList": true,
  "dataList": [
   {
+   "createdAt": "2026-05-29T11:40:34.446Z",
+   "updatedAt": "2026-05-29T11:46:15.596572Z",
+   "isDeleted": false,
+   "entityId": "1ad70ece-22eb-464b-ac5a-6f39f6880a11",
+   "name": "tc3--",
+   "group": [
+    "test"
+   ],
+   "input": {
+    "ci": {
+     "age": {
+ "value": 40
+},
+     "country": {
+ "value": "us"
+}
+    }
+   },
+   "output": {
+    "output": {
+     "name": "satya"
+    },
+    "addOutput": {
+     "name": "satya"
+    },
+    "action": {
+     "name": "satya"
+    }
+   }
+  },
+  {
    "createdAt": "2026-05-29T07:34:33.263Z",
    "updatedAt": "2026-05-29T07:34:33.263Z",
    "isDeleted": false,
@@ -12,8 +43,6 @@
    "group": [
     "test"
    ],
-   "targetEntityType": "rule",
-   "targetEntityId": "822d9533-7e14-4a4e-8db4-c6d33720a932",
    "input": {
     "ci": {
      "age": {
@@ -45,8 +74,6 @@
    "group": [
     "test"
    ],
-   "targetEntityType": "rule",
-   "targetEntityId": "822d9533-7e14-4a4e-8db4-c6d33720a932",
    "input": {
     "ci": {
      "age": {
