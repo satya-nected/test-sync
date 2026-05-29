@@ -1,0 +1,73 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-05-29T07:34:33.263Z",
+   "updatedAt": "2026-05-29T07:34:33.263Z",
+   "isDeleted": false,
+   "entityId": "009d4dbd-9cf2-4be0-811e-a66cf0154e22",
+   "name": "tc1",
+   "group": [
+    "test"
+   ],
+   "targetEntityType": "rule",
+   "targetEntityId": "822d9533-7e14-4a4e-8db4-c6d33720a932",
+   "input": {
+    "ci": {
+     "age": {
+ "value": 40
+},
+     "country": {
+ "value": "us"
+}
+    }
+   },
+   "output": {
+    "output": {
+     "name": "satya"
+    },
+    "addOutput": {
+     "name": "satya"
+    },
+    "action": {
+     "name": "satya"
+    }
+   }
+  },
+  {
+   "createdAt": "2026-05-29T07:34:22.205Z",
+   "updatedAt": "2026-05-29T07:34:22.205Z",
+   "isDeleted": false,
+   "entityId": "95f6580b-8eaf-4665-b364-5ddf404ec611",
+   "name": "tc2",
+   "group": [
+    "test"
+   ],
+   "targetEntityType": "rule",
+   "targetEntityId": "822d9533-7e14-4a4e-8db4-c6d33720a932",
+   "input": {
+    "ci": {
+     "age": {
+ "value": 40
+},
+     "country": {
+ "value": "us"
+}
+    }
+   },
+   "output": {
+    "output": {
+     "name": "satya"
+    },
+    "addOutput": {
+     "name": "satya"
+    },
+    "action": {
+     "name": "satya"
+    }
+   }
+  }
+ ]
+}
