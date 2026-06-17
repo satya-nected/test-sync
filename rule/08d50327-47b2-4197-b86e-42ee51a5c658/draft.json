@@ -3,7 +3,7 @@
  "category": "ruleSet",
  "data": {
   "createdAt": "2026-06-08T13:33:15.393Z",
-  "updatedAt": "2026-06-17T05:12:26.752414Z",
+  "updatedAt": "2026-06-17T11:48:13.090569Z",
   "isDeleted": false,
   "testedAt": "2026-06-17T05:12:26.751Z",
   "publishedAt": "0001-01-01T00:00:00Z",
@@ -11,7 +11,7 @@
   "version": "draft",
   "name": "rs",
   "commitId": "commit-20a1af57-6253-480d-9668-44f34c196298",
-  "status": "tested",
+  "status": "draft",
   "lastVersion": "",
   "isLive": false,
   "commitInfo": {
@@ -39,13 +39,8 @@
   },
   "ruleChain": {
    "740cde00-e1fa-4844-a04f-cd12e450a94f": {
- "prevRuleId": "fe6de2f3-3b8f-4a4a-bbd4-427da2b99825",
- "nextRuleId": "",
- "isEnabled": true
-},
-   "fe6de2f3-3b8f-4a4a-bbd4-427da2b99825": {
  "prevRuleId": "",
- "nextRuleId": "740cde00-e1fa-4844-a04f-cd12e450a94f",
+ "nextRuleId": "",
  "isEnabled": true
 }
   },
@@ -77,7 +72,7 @@
    "startNode": ""
   },
   "firstCustomInput": "",
-  "firstRuleChain": "fe6de2f3-3b8f-4a4a-bbd4-427da2b99825",
+  "firstRuleChain": "740cde00-e1fa-4844-a04f-cd12e450a94f",
   "ruleSetPolicy": "order",
   "description": "",
   "policy": "",
@@ -85,7 +80,6 @@
   "type": "ruleSet",
   "dataSetId": null,
   "ruleSet": [
-   "fe6de2f3-3b8f-4a4a-bbd4-427da2b99825",
    "740cde00-e1fa-4844-a04f-cd12e450a94f"
   ],
   "settings": {
@@ -120,21 +114,8 @@
  "dependencies": [
   {
    "isDeleted": false,
-   "createdAt": "2026-06-08T13:33:19.551874Z",
-   "updatedAt": "2026-06-17T05:12:14.752701Z",
-   "entityCommitId": "commit-20a1af57-6253-480d-9668-44f34c196298",
-   "entityType": "rule",
-   "entityId": "08d50327-47b2-4197-b86e-42ee51a5c658",
-   "entityVersion": "draft",
-   "entityNodeId": "fe6de2f3-3b8f-4a4a-bbd4-427da2b99825",
-   "dependencyType": "rule",
-   "dependencyId": "fe6de2f3-3b8f-4a4a-bbd4-427da2b99825",
-   "dependencyVersion": "draft"
-  },
-  {
-   "isDeleted": false,
    "createdAt": "2026-06-08T13:33:21.115704Z",
-   "updatedAt": "2026-06-17T05:12:14.748048Z",
+   "updatedAt": "2026-06-17T11:48:13.103607Z",
    "entityCommitId": "commit-20a1af57-6253-480d-9668-44f34c196298",
    "entityType": "rule",
    "entityId": "08d50327-47b2-4197-b86e-42ee51a5c658",
