@@ -1,0 +1,38 @@
+{
+ "entityType": "testcase",
+ "category": "workflow",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-06-12T11:23:43.167Z",
+   "updatedAt": "2026-06-12T11:30:36.722272Z",
+   "isDeleted": false,
+   "entityId": "7fd8ab92-4cf8-4435-9c0c-1be94db5a4ee",
+   "name": "TC1",
+   "group": [
+    ""
+   ],
+   "input": {
+    "ci": {
+     "name": {
+ "value": "abc"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": null,
+    "output": {
+ "json": {
+ "name": "satya"
+},
+ "list": [
+ "a",
+ "b",
+ "c"
+]
+}
+   }
+  }
+ ]
+}

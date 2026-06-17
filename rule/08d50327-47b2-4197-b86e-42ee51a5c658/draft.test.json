@@ -1,0 +1,145 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-06-17T05:22:41.445Z",
+   "updatedAt": "2026-06-17T10:42:04.637176Z",
+   "isDeleted": false,
+   "entityId": "aba4f70d-e853-4cc3-8f11-f68e5c6f1dd1",
+   "name": "Test 1",
+   "source": "import",
+   "group": [
+    ""
+   ],
+   "input": {
+    "ci": {
+     "age": {
+ "value": 12
+},
+     "name": {
+ "value": "satya"
+}
+    }
+   },
+   "output": {
+    "output": [
+ {
+  "action": null,
+  "name": "sr",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "str": "satya"
+ }
+]
+ },
+ {
+  "action": null,
+  "name": "dt",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "dt_num": 12,
+  "rowError": null,
+  "rowId": 1,
+  "str": "test"
+ }
+]
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-06-16T08:47:27.763Z",
+   "updatedAt": "2026-06-16T08:55:21.000502Z",
+   "isDeleted": false,
+   "entityId": "873ccee5-e7bc-4519-8208-bdf32cf3438a",
+   "name": "Test 1",
+   "input": {
+    "ci": {
+     "age": {
+ "value": 12
+}
+    }
+   },
+   "output": {
+    "action": {
+ "action_12": false
+},
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "dt_num": 12,
+  "rowError": null,
+  "rowId": 1,
+  "str": "test"
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-06-10T13:31:08.494Z",
+   "updatedAt": "2026-06-12T11:34:22.569145Z",
+   "isDeleted": false,
+   "entityId": "2664a844-c397-4579-872d-5ae3cc996fb1",
+   "name": "tc2",
+   "group": [
+    ""
+   ],
+   "input": {
+    "ci": {
+     "name": {
+ "value": "prakash"
+}
+    }
+   },
+   "output": {
+    "action": {
+ 
+},
+    "additionalOutput": null,
+    "output": [
+ {
+  "defaultOutputData": false,
+  "num": 15,
+  "str": "prakash"
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-06-02T09:56:02.734Z",
+   "updatedAt": "2026-06-10T10:39:16.878973Z",
+   "isDeleted": false,
+   "entityId": "c7e646f4-81bc-4591-8031-610e61204d5d",
+   "name": "tc1",
+   "group": [
+    "g1"
+   ],
+   "input": {
+    "ci": {
+     "name": {
+ "value": "satya"
+}
+    }
+   },
+   "output": {
+    "action": {
+ "action_1": true
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "num": 12,
+  "str": "satya"
+ }
+]
+   }
+  }
+ ]
+}
