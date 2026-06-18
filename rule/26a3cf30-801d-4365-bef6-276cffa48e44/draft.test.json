@@ -30,33 +30,6 @@
  }
 ]
    }
-  },
-  {
-   "createdAt": "2026-06-18T11:12:19.672Z",
-   "updatedAt": "2026-06-18T11:12:19.672Z",
-   "isDeleted": false,
-   "entityId": "0b061208-4448-4d33-a0c1-ee73fb13c3b5",
-   "name": "Test 1",
-   "input": {
-    "ci": {
-     "num": {
- "value": "",
- "notSend": true
-}
-    }
-   },
-   "output": {
-    "action": null,
-    "additionalOutput": {
- 
-},
-    "output": [
- {
-  "defaultOutputData": false,
-  "rowError": null
- }
-]
-   }
   }
  ]
 }
