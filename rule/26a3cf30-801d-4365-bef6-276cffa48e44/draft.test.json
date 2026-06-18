@@ -1,0 +1,28 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-06-18T07:40:57.862Z",
+   "updatedAt": "2026-06-18T07:40:57.862Z",
+   "isDeleted": false,
+   "entityId": "f81fd2bc-2b1b-452d-9116-c251074a6f4b",
+   "name": "Test 2",
+   "input": {
+    "ci": {
+     "num": {
+ "value": 12
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": []
+   }
+  }
+ ]
+}

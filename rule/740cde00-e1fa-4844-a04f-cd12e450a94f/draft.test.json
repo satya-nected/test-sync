@@ -1,0 +1,63 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-06-10T13:31:08.494Z",
+   "updatedAt": "2026-06-18T07:39:57.02996Z",
+   "isDeleted": false,
+   "entityId": "2664a844-c397-4579-872d-5ae3cc996fb1",
+   "name": "tc2",
+   "group": [
+    ""
+   ],
+   "input": {
+    "ci": {
+     "name": {
+ "value": "prakash"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "output": [
+ {
+  "defaultOutputData": false,
+  "num": 15,
+  "str": "prakash"
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-06-02T09:56:02.734Z",
+   "updatedAt": "2026-06-10T10:39:16.878973Z",
+   "isDeleted": false,
+   "entityId": "c7e646f4-81bc-4591-8031-610e61204d5d",
+   "name": "tc1",
+   "group": [
+    "g1"
+   ],
+   "input": {
+    "ci": {
+     "name": {
+ "value": "satya"
+}
+    }
+   },
+   "output": {
+    "action": {
+ "action_1": true
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "num": 12,
+  "str": "satya"
+ }
+]
+   }
+  }
+ ]
+}
